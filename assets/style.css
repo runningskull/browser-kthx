@@ -1,0 +1,134 @@
+body {
+    background:     #f9f9f9;
+    font-size:      1em;
+    font-family:    Helvetica, Arial, sans-serif;
+    font-weight:    300;
+    line-height:    1.5em;
+
+    letter-spacing: 0;
+    word-spacing:   0;
+}
+
+#browser-upgrade {
+    padding:    4.25% 22%;
+    margin-top: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align:     center;
+    line-height:    1em;
+
+    letter-spacing: 1px;
+    word-spacing:   5px;
+
+    font-size:      2em;
+    font-weight:    300;
+    color:          #333;
+
+    margin:         0 0 0.25em;
+}
+
+h3 {
+    margin:         0 0 1em 0;
+    font-size:      1.5em;
+    font-weight:    300;
+    border-bottom:  1px solid #ccc;
+    padding-bottom: 0.25em;
+}
+
+.col-left {
+    width:  50%;
+    float:  left;
+}
+
+.col-left p {
+    margin-top: 0;
+}
+
+.col-right {
+    width:  39%;
+    float:  right;
+}
+
+.col-right i {
+    padding-left:   1.5em;
+}
+
+.col-right a {
+    display:        block;
+    margin-bottom:  1em;
+}
+
+.col-right a:hover {
+    background: #eceef1;
+}
+
+.col-right img {
+    float:          left;
+    margin-right:   20px;
+}
+
+.col-right span {
+    line-height:    64px;
+}
+
+small {
+    display:        block;
+    font-size:      0.875em;
+    font-weight:    400;
+    font-style:     normal;
+    font-family:    Georgia, serif;
+
+    padding:        6px 0;
+    text-align:     center;
+    color:          #646464;
+    background:     #eceef1;
+
+    word-spacing:   4px;
+
+    border:         1px solid #eee;
+
+    margin-top:     1.5em;
+    margin-bottom:  4em;
+}
+
+.desc {
+    display:        block;
+    margin-top:     1.5em;
+    text-align:     center;
+    color:          #999;
+}
+
+ul {
+    letter-spacing: 0;
+    word-spacing:   0;
+    padding:        0;
+    margin:         0;
+}
+
+li {
+    margin:             0 0 1.25em 0;
+    list-style-type:    none;
+}
+
+li.separator {
+    height: 15px;
+    position: relative;
+}
+
+li.separator:after {
+    content: 'or';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: #999;
+}
+
+.win-only {
+    display: none;
+}
+
+img {
+    border: 0px;
+}

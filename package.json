@@ -1,0 +1,8 @@
+{
+    "name": "browserkthx",
+    "version": "0.0.0",
+    "dependencies": {
+        "useragent": "2.0.0",
+        "semver": "1.1.2"
+    }
+}

@@ -32,3 +32,9 @@ This is highly unlikely. If they are in a corporate setting, then why are you su
 ### How many browsers should I blacklist?
 
 Ideally, only the ones you won't be aiming to support. Don't overuse this middleware and remember to at least support free browsers when you can!
+
+## install via [npm](https://npmjs.org)
+
+```
+npm install browserkthx
+```

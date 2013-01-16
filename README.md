@@ -8,11 +8,11 @@ It looks like this:
 
 ## use
 
-To show the screen to anyone using IE <= 8 and Opera < 10
+To show the screen to anyone using IE < 9 and Opera < 10. The default mode is to only specify browsers you know you can't/won't support. Allowing for new browsers to attempt to work on the site.
 
 ```javascript
 app.use(browserkthx({
-    ie: '<= 8',
+    ie: '< 9',
     opera: '< 10'
 }));
 ```
@@ -28,3 +28,7 @@ No. Forcing a proprietary, closed source, old, unsupported, single platform brow
 ### What if my users can't install a new browser?
 
 This is highly unlikely. If they are in a corporate setting, then why are you supporting this nonsense? If they are a home user, you are doing them a favor by introducing them to a better web. If they really can't install a new browser then I guess you need to spend the countless man hours making sure your site really does work in IE 6.
+
+### How many browsers should I blacklist?
+
+Ideally, only the ones you won't be aiming to support. Don't overuse this middleware and remember to at least support free browsers when you can!

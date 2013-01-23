@@ -43,6 +43,13 @@ module.exports = function(opt) {
         var os = ua.os.family.toLowerCase();
 
         var page = html.replace(/{{(.*)}}/g, function(_, item) {
+            if (item === 'footer') {
+                if (!opt.footer) {
+                    return '';
+                }
+                return '<small class="footer">' + opt.footer + '</small>';
+            }
+
             if (item === 'windows.css' && os.indexOf('windows') < 0) {
                 return '#';
             }

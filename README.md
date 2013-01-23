@@ -17,6 +17,17 @@ app.use(browserkthx({
 }));
 ```
 
+### adding a footer
+
+If you want to provide a support email or other message, just add a ```footer``` field with any valid html to be displayed at the bottom of the page.
+
+```javascript
+app.use(browserkthx({
+    ie: '< 9',
+    footer: '<a href="mailto:support@example.com">support@example.com</a>'
+}));
+```
+
 ## why?
 
 Because if you aren't going to support a browser, the least you can do is tell your users.

@@ -10,7 +10,7 @@ body {
 }
 
 #browser-upgrade {
-    padding:    4.25% 22%;
+    padding:    3% 22%;
     margin-top: 0;
 }
 
@@ -58,6 +58,7 @@ h3 {
 .col-right a {
     display:        block;
     margin-bottom:  1em;
+    padding: 4px;
 }
 
 .col-right a:hover {
@@ -131,4 +132,17 @@ li.separator:after {
 
 img {
     border: 0px;
+}
+
+.footer a, a:active, .footer a:visited {
+    color:          #646464;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color:          #343434;
+}
+
+.footer {
+    margin-bottom: 1em;
 }
